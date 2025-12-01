@@ -21,7 +21,7 @@ createApp(App)
             component: ProductsPage
         },
         {
-            path: '/product/:id',
+            path: '/product/:productId',
             name: 'ProductDetailPage',
             component: ProductDetailPage
         }
